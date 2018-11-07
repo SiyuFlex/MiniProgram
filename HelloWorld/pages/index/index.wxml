@@ -1,0 +1,12 @@
+<!--index.wxml-->
+
+<view class="container" id="myid-{{testid}}">
+  <text class=".txt-css .txt-left" style="color:{{color}};">{{motto}}</text>
+  <text>{{msg}}</text>
+  <checkbox checked="{{flag}}"></checkbox>
+  <checkbox checked="{{flag}}"></checkbox>
+  <checkbox checked="{{unflag}}"></checkbox>
+  {{a+b==3? 'yes':'no'}}
+  <view>{{flag + unflag}}</view>
+  <view>{{1+2 + unflag}}</view>
+</view>

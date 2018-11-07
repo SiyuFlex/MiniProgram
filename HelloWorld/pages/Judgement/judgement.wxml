@@ -1,0 +1,13 @@
+<!--pages/Judgement/judgement.wxml-->
+<text>pages/Judgement/judgement.wxml</text>
+<view class="Container">
+  <view wx:if="{{Age<18}}"> unAudit </view>
+  <view wx:elif="{{Age<30 && Age>18}}"> Young </view>
+  <view wx:else="{{Age>18}}"> You has been old! </view>
+
+  <block wx:if="{{true}}">
+    <view> 这是一个块级元素 </view>
+    <view> 本节是if判断学习 </view>
+  </block>
+  
+</view>

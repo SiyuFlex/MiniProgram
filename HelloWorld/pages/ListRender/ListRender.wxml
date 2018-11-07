@@ -1,0 +1,8 @@
+<!--pages/ListRender/ListRender.wxml-->
+<text>pages/ListRender/ListRender.wxml</text>
+<!-- wx:key="unique" -->
+<view class="Container">
+  <switch wx:for="{{objectArray}}" wx:key="unique" style="display: block;"> {{item.id}} </switch>
+  <button bindtap="switch"> Switch </button>
+  <button bindtap="addToFront"> Add to the front </button>
+</view>
