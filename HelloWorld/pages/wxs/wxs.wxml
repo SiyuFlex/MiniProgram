@@ -1,0 +1,17 @@
+<view class = "container">
+  <wxs src="../wxs/module.wxs" module="item"></wxs>
+  <view>{{item.name}}</view>
+  <view>{{item.age}}</view>
+  <view>{{item.method("parameter")}}</view>
+
+  <view>{{item.name}}</view>
+  <view>{{item.age}}</view>
+  <view>{{item.method("parameter")}}</view>
+
+  <view>{{item.name}}</view>
+  <view>{{item.age}}</view>
+  <view>{{item.method("parameter")}}</view>
+
+  <import src="../template/template.wxml"></import>
+  <template is="mytemp" data="{{...person,msg,name: 'lsiy', age: '18'}}"></template>
+</view>

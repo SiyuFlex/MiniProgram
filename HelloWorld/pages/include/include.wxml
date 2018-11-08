@@ -1,0 +1,3 @@
+<include src="../include/header.wxml"/>
+<view>This is body page</view>
+<include src="../include/footer.wxml"/>

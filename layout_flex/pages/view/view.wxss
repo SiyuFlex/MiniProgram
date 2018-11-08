@@ -1,0 +1,52 @@
+.container{
+  display:flex;
+  /* row: default is from left to the right ordered(row)*/
+  /* flex-direction: row;  */
+
+  /*Default is no column change*/
+  /* flex-wrap: wrap-reverse; */
+
+  /*flex-start   Defalut left float*/
+  /*flex-end     Defalut right float*/
+  /*flex-center  Defalut center float <always using>*/
+  /*space-around element both side wrapped*/
+  /*space-between element both side wrapped -> both ending not has a blank */
+  /* justify-content: space-between; */
+
+  
+}
+
+.size{
+  width: 100rpx;
+  height: 150rpx;
+}
+
+.a{
+  background-color: red;
+  order: 1;
+  flex: 1;
+}
+
+.b{
+  background-color: yellow;
+  order: 2;
+  flex: 1;
+}
+
+.c{
+  background-color: blue;
+  order: 5;
+  flex: 1;
+}
+
+.d{
+  background-color: green;
+  order: 3;
+  flex: 1;
+}
+
+.e{
+  background-color: orange;
+  order: 4;
+  flex: 1;
+}

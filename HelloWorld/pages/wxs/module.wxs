@@ -1,0 +1,18 @@
+var num2 = require("../wxs/module2.wxs");
+
+var name = "lsiy";
+var age = 18;
+
+var method = function(obj){
+  console.log(name);
+  console.log(num2.age);
+  console.log(num2.method("This is a parameter"));
+
+  return obj;
+}
+
+module.exports = {
+  name: name,
+  age: age,
+  method: method
+}

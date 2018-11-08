@@ -1,5 +1,8 @@
 {
   "pages":[
+    "pages/include/include",
+    "pages/wxs/wxs",
+    "pages/template/template",
     "pages/Judgement/judgement",
     "pages/ListRender/ListRender",
     "pages/DataBind - Array/DataBind - array",

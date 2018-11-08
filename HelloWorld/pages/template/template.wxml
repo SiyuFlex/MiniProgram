@@ -1,0 +1,14 @@
+<template name="mytemp">
+  <view>Name: {{name}}</view>
+  <view>Age: {{age}}</view>
+  <view>Address: {{address}}</view>
+  <view>remark: {{remark}}</view>
+
+  <view>msg: {{msg}}</view>
+</template>
+
+<view class="container">
+  <template is="mytemp" data="{{...person,msg,name: 'lsiy', age: '18'}}"></template>
+  <template is="mytemp" data="{{...person,msg,name: 'lsiy', age: '18'}}"></template>
+  <template is="mytemp" data="{{...person,msg,name: 'lsiy', age: '18'}}"></template>
+</view>

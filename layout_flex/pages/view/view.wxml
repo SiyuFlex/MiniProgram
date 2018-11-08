@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<view class="container">
+    <view class='size a' hover-class='b' hover-start-time='1000' hover-stay-time='2000'>a</view>
+</view>
